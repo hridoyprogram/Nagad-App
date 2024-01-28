@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
 }
 
 .lang{
@@ -16,21 +17,21 @@
     border:2px solid #F04A28;
     
     color:#000;
-    font-size:10px;
-    
-    left:300px;
+    font-size:25px;
+    top:20px;
+    left:750px;
     position:relative;
     
     
 }
 
 .lang .btn1{
-    padding:4px 10px 4px 10px;
+    padding:8px 15px 8px 15px;
     background: none;
     border-top-left-radius:30px;
     border-bottom-left-radius:30px;
-    width:40px;
-    height:30px;
+    width:90px;
+    height:60px;
     text-align:center;
 }
 
@@ -40,12 +41,12 @@
 }
 
 .lang .btn2{
-    padding:5px 10px 5px 5px;
+    padding:10px 15px 10px 15px;
     background: #f04a28;
     border-top-right-radius:30px;
     border-bottom-right-radius:30px;
-    width:40px;
-    height:30px;
+    width:90px;
+    height:60px;
     margin:5px 0px 0px -4px;
     color:#fff;
 }
@@ -55,52 +56,55 @@
 }
 .number{
     width:100%;
-    height:250px;
+    height:550px;
     text-align:center;
     background: #fff;
+    margin-top:150px;
 }
 
 .number img{
-    width:180px;
+    width:450px;
     display:block;
     margin-right:auto;
     margin-left:auto;
 }
 
 .number .phone{
-    font-size:16px;
+    font-size:36px;
     color:#000;
     opacity:0.4;
     margin-top:-10px;
 }
 
 .number .digit{
-    font-size:19px;
-    margin-top:5px;
+    font-size:46px;
+    margin-top:20px;
 }
 
 .pin{
     width:100%;
-    height:380px;
+    height:880px;
     text-align:center;
+    margin-top:50px;
 }
 
 .pin i{
-    font-size:20px;
+    font-size:50px;
     color:#f04a28;
     margin-right:10px;
 }
 
 
 .pin .input1{
-    width:320px;
+    width:80%;
     border-style:none;
     border-bottom:1.5px solid #888;
-    padding:10px 0px 5px 10px;
+    padding:20px 0px 15px 20px;
+    
 }
 
 .pin .input1::placeholder{
-   font-size:18px;
+   font-size:35px;
 }
 
 .pin input:focus{
@@ -108,14 +112,14 @@
 }
 
 .pin .btn{
-    padding:10px 120px 10px 120px;
-    font-size:16px;
+    padding:25px 280px 25px 280px;
+    font-size:28px;
     background: none;
     border:1.5px solid #f04a28;
     border-radius:50px;
     color:#000;
     
-    margin-top:10px;
+    margin-top:50px;
 }
 
 .pin .btn:hover{
@@ -124,8 +128,8 @@
 }
 
 .pin p{
-     font-size:14px;
-     margin-top:15px;
+     font-size:22px;
+     margin-top:25px;
      color:#000;
      opacity:0.5;
      
@@ -142,12 +146,14 @@
 
 
 .footer span{
-    font-size:11px;
-    margin-top:10px;
+    font-size:25px;
+    
+    
 }
 
 .footer i{
-    font-size:26px;
+    font-size:66px;
     color:#f04a28;
 }
+
 
