@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.lang{
+    width:393px;
+    height:40px;
+    background: #fff;
+    
+    
+}
+
+.lang button{
+    border:2px solid #F04A28;
+    
+    color:#000;
+    font-size:10px;
+    
+    left:300px;
+    position:relative;
+    
+    
+}
+
+.lang .btn1{
+    padding:4px 10px 4px 10px;
+    background: none;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    width:40px;
+    height:30px;
+    text-align:center;
+}
+
+.lang .btn1:focus{
+    background :#f04a28;
+    color:#fff;
+}
+
+.lang .btn2{
+    padding:5px 10px 5px 5px;
+    background: #f04a28;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    width:40px;
+    height:30px;
+    margin:5px 0px 0px -4px;
+    color:#fff;
+}
+.lang .btn2:focus{
+    background :#f04a28;
+    color:#fff;
+}
+.number{
+    width:100%;
+    height:250px;
+    text-align:center;
+    background: #fff;
+}
+
+.number img{
+    width:180px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.number .phone{
+    font-size:16px;
+    color:#000;
+    opacity:0.4;
+    margin-top:-10px;
+}
+
+.number .digit{
+    font-size:19px;
+    margin-top:5px;
+}
+
+.pin{
+    width:100%;
+    height:380px;
+    text-align:center;
+}
+
+.pin i{
+    font-size:20px;
+    color:#f04a28;
+    margin-right:10px;
+}
+
+
+.pin .input1{
+    width:320px;
+    border-style:none;
+    border-bottom:1.5px solid #888;
+    padding:10px 0px 5px 10px;
+}
+
+.pin .input1::placeholder{
+   font-size:18px;
+}
+
+.pin input:focus{
+    outline:none;
+}
+
+.pin .btn{
+    padding:10px 120px 10px 120px;
+    font-size:16px;
+    background: none;
+    border:1.5px solid #f04a28;
+    border-radius:50px;
+    color:#000;
+    
+    margin-top:10px;
+}
+
+.pin .btn:hover{
+    background: #f04a28;
+    color:#fff;
+}
+
+.pin p{
+     font-size:14px;
+     margin-top:15px;
+     color:#000;
+     opacity:0.5;
+     
+ }
+ 
+ 
+.footer{
+    display:flex;
+    justify-content:space-around;
+    align-item:center;
+    text-align:center;
+    
+}
+
+
+.footer span{
+    font-size:11px;
+    margin-top:10px;
+}
+
+.footer i{
+    font-size:26px;
+    color:#f04a28;
+}
+
